@@ -1,11 +1,29 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 div {
-
+  margin: 27px;
 }
 
 a {
+  border: 1px solid black;
+  padding: 8px;
+  
+}
 
+div:nth-child(1) a {
+  border-top: none;
+}
+
+div:nth-child(3) a {
+  border-bottom: none;
+}
+
+a:nth-child(1) {
+  border-left: none;
+}
+
+a:nth-child(3) {
+  border-right: none;
 }
