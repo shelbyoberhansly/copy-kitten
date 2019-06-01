@@ -1,4 +1,26 @@
-* { 
-	margin: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  background-color: rgb(70, 68, 68);
+  margin-top: 38px;
+  padding: 8px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+	color: rgb(62, 218, 202)
 }
